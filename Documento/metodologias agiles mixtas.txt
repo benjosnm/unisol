@@ -1,0 +1,17 @@
+como una de las metodologías mas usadas para el desarrollo de software, llegando a conformar un framework de trabajo centrado en la gestión del proceso de desarrollo ágil. Por otro lado XP brinda practicas par complementar el desarrollo para el diseño y la programación.
+
+Para ello se tienen practicas como:
+
+Refactoring
+Test Driven Development
+Coding Standard
+Simple Design
+Continuous integration
+
+
+son impresindibles para el desarrollo
+
+para los tiempos para iteraciones scrum propone unas 2 o 4 semanas
+
+mientras que XP recomienda 1 a 4
+

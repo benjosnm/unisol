@@ -1,0 +1,1918 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Benjamin</Author>
+  <LastAuthor>Benjamin</LastAuthor>
+  <Created>2013-12-23T19:52:52Z</Created>
+  <LastSaved>2013-12-23T20:58:08Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9375</WindowHeight>
+  <WindowWidth>9705</WindowWidth>
+  <WindowTopX>270</WindowTopX>
+  <WindowTopY>615</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="15" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#969696"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="14" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="14" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Backlog Report">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="58" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15.75">
+   <Column ss:Width="90"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="240" ss:Span="2"/>
+   <Column ss:Index="6" ss:Width="50.25"/>
+   <Column ss:Width="90"/>
+   <Column ss:Width="45" ss:Span="2"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:MergeAcross="3" ss:StyleID="s63"><Data ss:Type="String">Fundación UNISOL</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s65"><Data ss:Type="String">Velocidad: 2.0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tema</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">User story</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Criterio de aceptación</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comentarios</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sprint</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Status</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">50</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">90</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Días</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:MergeDown="22" ss:StyleID="s68"><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC1</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> Editar la información de la organización &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser vista en la página principal</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Guardar cambios en la db&#10;&#13;b) Mostrar cambios en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String">Se agregaron campos de: motto(consigna), params(parametros). Agregar elementos al formulario de Organización&#10;&#13;</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC2</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar proyectos a mi organización &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser vistos en las páginas de cada proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo proyecto en la db&#10;&#13;b) Visualizar proyecto activo en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC3</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> editar la información de los proyectos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> actualizar mis proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar datos del proyecto en db</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC4</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar mis proyectos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar los proyectos terminados y/o sin ejecución</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Eliminar todos los contenidos y elementos relacionados con el proyecto</Data></Cell>
+    <Cell><Data ss:Type="String">Falta la eliminar los elementos relacionados al proyecto&#10;&#13;</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC5</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar páginas genéricas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> presentar información genérica</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualización de las páginas genericas&#10;&#13;b) Visualizar los datos agregados en cada página</Data></Cell>
+    <Cell><Data ss:Type="String">Falta verificación de una única página de genérica. Ej. Una sola página de Contacto activa de la fundación.</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.9</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC6</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar páginas informativas  &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> presentar información adicional a la organización/proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualización de las páginas informativas&#10;&#13;b) Listar páginas informativas</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC7</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar los datos de mis páginas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar datos actualizados y/o corregir la información</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar la información en la db&#10;&#13;b) Visualizar correctamente la información actualizada de la página</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">40.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.6</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC8</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar páginas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar páginas que ya no sean requeridas</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro eliminado en la db&#10;&#13;b) No se muestra mas en el sistema la página eliminada</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC9</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> visualizar páginas asociadas a Organización/Proyecto &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> promocionar campañas</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar correctamente página en la organización y proyecto correspondiente</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC10</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> solicitar información de contacto &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> solicitar mas información acerca de la organización/proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Formulario de contacto&#10;&#13;b) Guardar y enviar solicitud de contacto con información agregada por el usuario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC11</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar un nuevo blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar artículos y notas acerca de la organización y sus proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad blog en la db&#10;&#13;b) Visualizar correctamente la información del blog</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC12</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar un blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> mantener actualizado y/o corregir errores en un blog</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar los datos de la entidad en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC13</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar blogs que no sean necesarios dentro el sitio</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Quitar registro de entidad blog de la db&#10;&#13;b) No se visualiza el blog eliminado en el sistema.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC14</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una nueva noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> difundir información de las actividades y acontecimientos concernientes en organización/proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad noticia en la db&#10;&#13;b) Visualizar correctamente la noticia nueva en el sistema.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC15</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar una noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir información de la noticia</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar los datos de la entidad en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC16</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar noticias que no sean requeridos en el sistema</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de entidad blog eliminado en la db&#10;&#13;b) La noticia ya no está disponible en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="94.5">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC17</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar cuenta de usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> agregar usuarios al sistema</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo usuario registrado en la db&#10;&#13;b) Visualizar correctamente la información del usuario en el administrador de usuarios&#10;&#13;c) Dependiente el tipo de usuario el mismo puede acceder al área reservada correspondiente.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC18</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar cuenta de usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar cuentas que no sean necesarias en el sistema</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de cuenta de usuario eliminado en la db&#10;&#13;b) La cuenta de usuario queda des-habilitada para usar el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC19</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar un nuevo evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> registrar información acerca de un evento de la Organización/Proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad evento en la db&#10;&#13;b) Visualizar correctamente el evento en el calendario y el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC20</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> editar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> actualizar datos del evento</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Datos actualizados del evento en la db&#10;&#13;b) Se visualizan correctamente los datos en el calendario y el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC21</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar eventos cancelados o que no sean necesarios</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro eliminado dentro la db&#10;&#13;b) El evento no esta disponible ni en el calendario ni el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.2</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">MDC22</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> visualizar mis eventos en un calendario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> tener una ayuda visual al administrar mis eventos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar un calendario con los eventos registrados&#10;&#13;b) Modos (mes-día-año)&#10;&#13;c) Los eventos se muestran en la posición adecuada dentro del calendario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="s72"><Data ss:Type="String">Total para el tema 'Mador de contenidos'</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s74"><Data ss:Type="String">86.6 puntos / 43.3 días</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="5.0625">
+    <Cell ss:MergeAcross="9"/>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:MergeDown="14" ss:StyleID="s68"><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA1</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una campaña de recaudación &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar información de una campaña de recaudación de fondos o bienes organizada por la fundación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro en la db de la campaña&#10;&#13;b) Datos correctos de medidas, metas y fechas límites&#10;&#13;c) Visualizar la campaña correctamente en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA2</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar la información de la campaña &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir los datos de la campaña</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Los datos son actualizados correctamente en la db y el sistema&#10;&#13;b) Visualizar los cambios correctamente</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA3</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> visualizar las campañas activas en el sistema &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> promocionar mi campaña de recaudación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar correctamente las campañas asociadas a la organización/proyecto</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA4</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una contribución a una campaña de recaudación &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> actualizar los estados y avance de la recaudación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de la contribución a la campaña correspondiente en la db&#10;&#13;b) Visualizar las contribuciones a la campaña</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA5</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una campaña de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> promocionar el trabajo de voluntariado en los proyectos de la fundación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de campaña voluntario en la db&#10;&#13;b) Visualizar correctamente la nueva campaña de voluntariado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA6</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar información de campaña de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> agregar o corregir datos de la campaña de voluntariado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Datos actualizados correctamente guardados en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA7</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar una campaña de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar una campaña de voluntariado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro eliminado en la db&#10;&#13;b) Solicitudes asociadas eliminadas&#10;&#13;c) No se visualiza la campaña eliminada en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA8</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar mi solicitud de trabajo voluntario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser aceptado como voluntario de la campaña</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de la solicitud en la db&#10;&#13;b) Visualizar las solicitudes a la campaña asociada en el área administrativa </Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">8.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.6</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA9</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> aceptar las solicitudes de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> coordinar tareas con los voluntarios aceptados</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Usuarios tipo voluntario para solicitudes aceptadas&#10;&#13;b) Nuevo calendario de coordinación para cada voluntario&#10;&#13;c) Notificación a voluntario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">8.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.6</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA10</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar solicitudes de voluntario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> filtrar solicitudes</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Solicitud borrada de la db&#10;&#13;b) La solicitud no se vuelve a visualizar en la campaña asociada</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA11</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> administrar eventos y actividades del voluntario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> coordinar actividades</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar calendario asociado&#10;&#13;b) Agregar eventos y actividades en el calendario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA12</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Voluntario - Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> comentar en un actividad propuesta &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> coordinar la actividad asociada</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Comentario agregado al evento registrado en la db&#10;&#13;b) Visualización correcta de los comentarios asociados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA13</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar el avance de la actividad &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> evaluar el avance de la actividad</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro en la db el porcentaje de avance&#10;&#13;b) Visualizar el porcentaje de avance en la actividad</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell ss:Index="2"><Data ss:Type="String">CAA14</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar una actividad planteada &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir información coordinada con el voluntario</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de datos corregidos en la db&#10;&#13;b) Los datos anteriores son guardados para realizar un seguimiento a los cambios&#10;&#13;c) Visualizar los datos originales y los datos modificados de la actividad</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="s72"><Data ss:Type="String">Total para el tema 'Campañas'</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s74"><Data ss:Type="String">47.0 puntos / 23.5 días</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="5.0625">
+    <Cell ss:MergeAcross="9"/>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:MergeDown="13" ss:StyleID="s68"><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD1</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar a un padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> registrar a un padrino asociado al proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Creación del registro de padrino dentro la db&#10;&#13;b) Visualización correcta de la información agregada del padrino.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD2</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar registro de padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir o agregar información de un padrino</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se guardan correctamente los datos actualizados del padrino&#10;&#13;b) Visualización correcta de los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD3</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar el registro de padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar un registro erróneo</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) El registro se elimina de la db&#10;&#13;b) No se visualiza la información del padrino en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD4</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar a un ahijado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> registrar a un niño disponible para recibir un padrinazgo</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro ahijado con los respectivos datos en la db&#10;&#13;b) Se visualiza correctamente la información del nuevo ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD5</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar registro de ahijado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir o agregar información de un ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se salvan correctamente los datos en la db&#10;&#13;b) Visualización de datos actualizados del ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD6</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar registro de un ahijado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar un registro erróneo </Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) El registro del ahijado se elimina de la db&#10;&#13;b) No se visualiza la información concerniente al registro eliminado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">8.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.6</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD7</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar un nuevo padrinazgo &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> empezar un seguimiento a la relación de padrinazgo entre padrino ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) En la db se registra la relación padrinazgo entre ahijado y padrino, ambos registrados&#10;&#13;b) Se visualiza la relación dentro de la administración de padrinazgos </Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD8</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> finalizar un padrinazgo &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> concluir el seguimiento a una relación de padrinazgo</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Padrinazgo en estado inactivo&#10;&#13;b) No se pueden realizar mas registros de documentos o eventos en padrinago</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD9</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar un documento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> adjuntar información concerniente al ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Documento disponible en la carpeta correspondiente al ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD10</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> gestionar las visitas realizadas a los ahijados</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Evento registrado en la db&#10;&#13;b) Visualización correcta del evento dentro del calendario del ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD11</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> comentar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> adjuntar información extra en un evento</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Comentario guardado correctamente dentro de la db&#10;&#13;b) Visualización correcta del comentario, fecha, autor</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD12</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> asociar un padrinazgo a un monitor padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> asignar a un monitor al padrinzago</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se guarda la relación padrinazgo- monitor correctamente en la db&#10;&#13;b) El monitor asignado visualiza correctamente el padrinazgo asignado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell ss:Index="2"><Data ss:Type="String">PAD13</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> enviar un correo a un padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> enviar un informe del padrinazgo y el estado del ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se registra el mensaje correctamente&#10;&#13;b) Envío correcto de correo a través del sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="s72"><Data ss:Type="String">Total para el tema 'Padrinos a distancia'</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s74"><Data ss:Type="String">48.4 puntos / 24.2 días</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="5.0625">
+    <Cell ss:MergeAcross="9"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:MergeAcross="3" ss:StyleID="s77"><Data ss:Type="String">Total para el backlog 'Fundación UNISOL'</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s79"><Data ss:Type="String">182.1 puntos / 91.0 días</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Panes/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Story List">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="='Story List'!R1C1:R1C10"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="50" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15.75">
+   <Column ss:Width="90"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="240" ss:Span="2"/>
+   <Column ss:Index="6" ss:Width="50.25" ss:Span="1"/>
+   <Column ss:Index="8" ss:Width="45" ss:Span="2"/>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tema</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ID</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">User story</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Criterio de aceptación</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comentarios</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sprint</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Status</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">50</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">90</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Días</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC1</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> Editar la información de la organización &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser vista en la página principal</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Guardar cambios en la db&#10;&#13;b) Mostrar cambios en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String">Se agregaron campos de: motto(consigna), params(parametros). Agregar elementos al formulario de Organización&#10;&#13;</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC2</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar proyectos a mi organización &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser vistos en las páginas de cada proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo proyecto en la db&#10;&#13;b) Visualizar proyecto activo en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC3</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> editar la información de los proyectos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> actualizar mis proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar datos del proyecto en db</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC4</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar mis proyectos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar los proyectos terminados y/o sin ejecución</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Eliminar todos los contenidos y elementos relacionados con el proyecto</Data></Cell>
+    <Cell><Data ss:Type="String">Falta la eliminar los elementos relacionados al proyecto&#10;&#13;</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC5</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar páginas genéricas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> presentar información genérica</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualización de las páginas genericas&#10;&#13;b) Visualizar los datos agregados en cada página</Data></Cell>
+    <Cell><Data ss:Type="String">Falta verificación de una única página de genérica. Ej. Una sola página de Contacto activa de la fundación.</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.9</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC6</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar páginas informativas  &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> presentar información adicional a la organización/proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualización de las páginas informativas&#10;&#13;b) Listar páginas informativas</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC7</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar los datos de mis páginas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar datos actualizados y/o corregir la información</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar la información en la db&#10;&#13;b) Visualizar correctamente la información actualizada de la página</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">40.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.6</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC8</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar páginas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar páginas que ya no sean requeridas</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro eliminado en la db&#10;&#13;b) No se muestra mas en el sistema la página eliminada</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC9</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> visualizar páginas asociadas a Organización/Proyecto &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> promocionar campañas</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar correctamente página en la organización y proyecto correspondiente</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC10</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> solicitar información de contacto &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> solicitar mas información acerca de la organización/proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Formulario de contacto&#10;&#13;b) Guardar y enviar solicitud de contacto con información agregada por el usuario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC11</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar un nuevo blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar artículos y notas acerca de la organización y sus proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad blog en la db&#10;&#13;b) Visualizar correctamente la información del blog</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC12</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar un blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> mantener actualizado y/o corregir errores en un blog</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar los datos de la entidad en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC13</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar blogs que no sean necesarios dentro el sitio</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Quitar registro de entidad blog de la db&#10;&#13;b) No se visualiza el blog eliminado en el sistema.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC14</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una nueva noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> difundir información de las actividades y acontecimientos concernientes en organización/proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad noticia en la db&#10;&#13;b) Visualizar correctamente la noticia nueva en el sistema.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC15</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar una noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir información de la noticia</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar los datos de la entidad en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC16</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar noticias que no sean requeridos en el sistema</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de entidad blog eliminado en la db&#10;&#13;b) La noticia ya no está disponible en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="94.5">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC17</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar cuenta de usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> agregar usuarios al sistema</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo usuario registrado en la db&#10;&#13;b) Visualizar correctamente la información del usuario en el administrador de usuarios&#10;&#13;c) Dependiente el tipo de usuario el mismo puede acceder al área reservada correspondiente.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC18</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar cuenta de usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar cuentas que no sean necesarias en el sistema</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de cuenta de usuario eliminado en la db&#10;&#13;b) La cuenta de usuario queda des-habilitada para usar el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC19</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar un nuevo evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> registrar información acerca de un evento de la Organización/Proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad evento en la db&#10;&#13;b) Visualizar correctamente el evento en el calendario y el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC20</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> editar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> actualizar datos del evento</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Datos actualizados del evento en la db&#10;&#13;b) Se visualizan correctamente los datos en el calendario y el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC21</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar eventos cancelados o que no sean necesarios</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro eliminado dentro la db&#10;&#13;b) El evento no esta disponible ni en el calendario ni el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.2</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC22</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> visualizar mis eventos en un calendario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> tener una ayuda visual al administrar mis eventos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar un calendario con los eventos registrados&#10;&#13;b) Modos (mes-día-año)&#10;&#13;c) Los eventos se muestran en la posición adecuada dentro del calendario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA1</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una campaña de recaudación &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar información de una campaña de recaudación de fondos o bienes organizada por la fundación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro en la db de la campaña&#10;&#13;b) Datos correctos de medidas, metas y fechas límites&#10;&#13;c) Visualizar la campaña correctamente en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA2</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar la información de la campaña &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir los datos de la campaña</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Los datos son actualizados correctamente en la db y el sistema&#10;&#13;b) Visualizar los cambios correctamente</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA3</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> visualizar las campañas activas en el sistema &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> promocionar mi campaña de recaudación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar correctamente las campañas asociadas a la organización/proyecto</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA4</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una contribución a una campaña de recaudación &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> actualizar los estados y avance de la recaudación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de la contribución a la campaña correspondiente en la db&#10;&#13;b) Visualizar las contribuciones a la campaña</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA5</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una campaña de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> promocionar el trabajo de voluntariado en los proyectos de la fundación</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de campaña voluntario en la db&#10;&#13;b) Visualizar correctamente la nueva campaña de voluntariado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA6</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar información de campaña de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> agregar o corregir datos de la campaña de voluntariado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Datos actualizados correctamente guardados en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA7</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar una campaña de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar una campaña de voluntariado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro eliminado en la db&#10;&#13;b) Solicitudes asociadas eliminadas&#10;&#13;c) No se visualiza la campaña eliminada en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA8</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar mi solicitud de trabajo voluntario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser aceptado como voluntario de la campaña</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de la solicitud en la db&#10;&#13;b) Visualizar las solicitudes a la campaña asociada en el área administrativa </Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">8.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.6</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA9</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> aceptar las solicitudes de voluntariado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> coordinar tareas con los voluntarios aceptados</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Usuarios tipo voluntario para solicitudes aceptadas&#10;&#13;b) Nuevo calendario de coordinación para cada voluntario&#10;&#13;c) Notificación a voluntario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">8.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.6</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA10</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar solicitudes de voluntario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> filtrar solicitudes</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Solicitud borrada de la db&#10;&#13;b) La solicitud no se vuelve a visualizar en la campaña asociada</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA11</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> administrar eventos y actividades del voluntario &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> coordinar actividades</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar calendario asociado&#10;&#13;b) Agregar eventos y actividades en el calendario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA12</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Voluntario - Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> comentar en un actividad propuesta &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> coordinar la actividad asociada</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Comentario agregado al evento registrado en la db&#10;&#13;b) Visualización correcta de los comentarios asociados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA13</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar el avance de la actividad &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> evaluar el avance de la actividad</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro en la db el porcentaje de avance&#10;&#13;b) Visualizar el porcentaje de avance en la actividad</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Campañas</Data></Cell>
+    <Cell><Data ss:Type="String">CAA14</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar una actividad planteada &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir información coordinada con el voluntario</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de datos corregidos en la db&#10;&#13;b) Los datos anteriores son guardados para realizar un seguimiento a los cambios&#10;&#13;c) Visualizar los datos originales y los datos modificados de la actividad</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD1</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar a un padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> registrar a un padrino asociado al proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Creación del registro de padrino dentro la db&#10;&#13;b) Visualización correcta de la información agregada del padrino.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD2</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar registro de padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir o agregar información de un padrino</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se guardan correctamente los datos actualizados del padrino&#10;&#13;b) Visualización correcta de los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD3</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar el registro de padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar un registro erróneo</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) El registro se elimina de la db&#10;&#13;b) No se visualiza la información del padrino en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD4</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar a un ahijado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> registrar a un niño disponible para recibir un padrinazgo</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro ahijado con los respectivos datos en la db&#10;&#13;b) Se visualiza correctamente la información del nuevo ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 2</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD5</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar registro de ahijado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir o agregar información de un ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se salvan correctamente los datos en la db&#10;&#13;b) Visualización de datos actualizados del ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD6</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar registro de un ahijado &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar un registro erróneo </Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) El registro del ahijado se elimina de la db&#10;&#13;b) No se visualiza la información concerniente al registro eliminado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 3</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">8.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.6</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD7</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar un nuevo padrinazgo &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> empezar un seguimiento a la relación de padrinazgo entre padrino ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) En la db se registra la relación padrinazgo entre ahijado y padrino, ambos registrados&#10;&#13;b) Se visualiza la relación dentro de la administración de padrinazgos </Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD8</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> finalizar un padrinazgo &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> concluir el seguimiento a una relación de padrinazgo</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Padrinazgo en estado inactivo&#10;&#13;b) No se pueden realizar mas registros de documentos o eventos en padrinago</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD9</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar un documento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> adjuntar información concerniente al ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Documento disponible en la carpeta correspondiente al ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD10</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> registrar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> gestionar las visitas realizadas a los ahijados</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Evento registrado en la db&#10;&#13;b) Visualización correcta del evento dentro del calendario del ahijado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD11</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> comentar un evento &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> adjuntar información extra en un evento</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Comentario guardado correctamente dentro de la db&#10;&#13;b) Visualización correcta del comentario, fecha, autor</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD12</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> asociar un padrinazgo a un monitor padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> asignar a un monitor al padrinzago</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se guarda la relación padrinazgo- monitor correctamente en la db&#10;&#13;b) El monitor asignado visualiza correctamente el padrinazgo asignado</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Padrinos a distancia</Data></Cell>
+    <Cell><Data ss:Type="String">PAD13</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Monitor de padrinos &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> enviar un correo a un padrino &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> enviar un informe del padrinazgo y el estado del ahijado</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Se registra el mensaje correctamente&#10;&#13;b) Envío correcto de correo a través del sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 4</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.9</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+   <x:Panes/>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C1:R1C10"
+   xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+ <Worksheet ss:Name="Sprint1">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15.75">
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="68.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="129.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="81"/>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tema</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">User story</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Criterio de aceptación</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comentarios</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sprint</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Status</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">50</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">90</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Días</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC1</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> Editar la información de la organización &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser vista en la página principal</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Guardar cambios en la db&#10;&#13;b) Mostrar cambios en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String">Se agregaron campos de: motto(consigna), params(parametros). Agregar elementos al formulario de Organización&#10;&#13;</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC2</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar proyectos a mi organización &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> ser vistos en las páginas de cada proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo proyecto en la db&#10;&#13;b) Visualizar proyecto activo en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC3</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> editar la información de los proyectos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> actualizar mis proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar datos del proyecto en db</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC4</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar mis proyectos &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar los proyectos terminados y/o sin ejecución</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Eliminar todos los contenidos y elementos relacionados con el proyecto</Data></Cell>
+    <Cell><Data ss:Type="String">Falta la eliminar los elementos relacionados al proyecto&#10;&#13;</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC5</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar páginas genéricas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> presentar información genérica</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualización de las páginas genericas&#10;&#13;b) Visualizar los datos agregados en cada página</Data></Cell>
+    <Cell><Data ss:Type="String">Falta verificación de una única página de genérica. Ej. Una sola página de Contacto activa de la fundación.</Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.9</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC6</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar páginas informativas  &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> presentar información adicional a la organización/proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualización de las páginas informativas&#10;&#13;b) Listar páginas informativas</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC7</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar los datos de mis páginas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar datos actualizados y/o corregir la información</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar la información en la db&#10;&#13;b) Visualizar correctamente la información actualizada de la página</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">40.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.6</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC8</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar páginas &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar páginas que ya no sean requeridas</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro eliminado en la db&#10;&#13;b) No se muestra mas en el sistema la página eliminada</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC9</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> visualizar páginas asociadas a Organización/Proyecto &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> promocionar campañas</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Visualizar correctamente página en la organización y proyecto correspondiente</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.0</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC10</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Usuario &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> solicitar información de contacto &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> solicitar mas información acerca de la organización/proyecto</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Formulario de contacto&#10;&#13;b) Guardar y enviar solicitud de contacto con información agregada por el usuario</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC11</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar un nuevo blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> proporcionar artículos y notas acerca de la organización y sus proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad blog en la db&#10;&#13;b) Visualizar correctamente la información del blog</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1.5</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC12</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar un blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> mantener actualizado y/o corregir errores en un blog</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar los datos de la entidad en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC13</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar blog &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar blogs que no sean necesarios dentro el sitio</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Quitar registro de entidad blog de la db&#10;&#13;b) No se visualiza el blog eliminado en el sistema.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="78.75">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC14</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> agregar una nueva noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> difundir información de las actividades y acontecimientos concernientes en organización/proyectos</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Nuevo registro de entidad noticia en la db&#10;&#13;b) Visualizar correctamente la noticia nueva en el sistema.</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="47.25">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC15</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> actualizar una noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> corregir información de la noticia</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Actualizar los datos de la entidad en la db&#10;&#13;b) Visualizar correctamente los cambios realizados</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+   <Row ss:Height="63">
+    <Cell><Data ss:Type="String">Mador de contenidos</Data></Cell>
+    <Cell><Data ss:Type="String">MDC16</Data></Cell>
+    <Cell ss:StyleID="s69"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#969696">Como</Font><Font> Administrador &#10;&#13;</Font><Font
+       html:Color="#969696">Quiero</Font><Font> eliminar noticia &#10;&#13;</Font><Font
+       html:Color="#969696">Para poder</Font><Font> descartar noticias que no sean requeridos en el sistema</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">a) Registro de entidad blog eliminado en la db&#10;&#13;b) La noticia ya no está disponible en el sistema</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Sprint 1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">5.0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2.2</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>9</ActiveCol>
+     <RangeSelection>R1C1:R17C10</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sprint2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15.75">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
